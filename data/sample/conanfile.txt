@@ -1,0 +1,10 @@
+# C/C++ demo (Conan)
+[requires]
+zlib/1.2.11
+openssl/1.1.1m
+fmt/9.1.0
+boost/[>=1.78 <1.84]
+
+[generators]
+CMakeDeps
+CMakeToolchain

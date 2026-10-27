@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.6)
+    rexml (3.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  rexml
+
+BUNDLED WITH
+   2.4.10

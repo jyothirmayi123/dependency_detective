@@ -1,0 +1,804 @@
+{
+ "meta": {
+  "name": "Bundled sample snapshot (OSV format, small multi-language subset)",
+  "snapshot_date": "2026-10-24",
+  "note": "Demonstration subset for offline mode, assembled by hand: verify every record at osv.dev before relying on it. Online mode fetches authoritative records; refresh the cache by running an online scan."
+ },
+ "vulns": [
+  {
+   "id": "GHSA-j8r2-6x86-q33q",
+   "aliases": [
+    "CVE-2023-32681"
+   ],
+   "summary": "Unintended leak of Proxy-Authorization header in requests",
+   "database_specific": {
+    "severity": "MODERATE"
+   },
+   "modified": "2023-06-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "PyPI",
+      "name": "requests"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "2.3.0"
+        },
+        {
+         "fixed": "2.31.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-j8r2-6x86-q33q"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-m2qf-hxjv-5gpq",
+   "aliases": [
+    "CVE-2023-30861"
+   ],
+   "summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2023-05-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "PyPI",
+      "name": "flask"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "2.2.5"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "2.3.0"
+        },
+        {
+         "fixed": "2.3.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-m2qf-hxjv-5gpq"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-8q59-q68h-6hv4",
+   "aliases": [
+    "CVE-2020-14343"
+   ],
+   "summary": "Improper Input Validation in PyYAML (arbitrary code execution via full_load)",
+   "database_specific": {
+    "severity": "CRITICAL"
+   },
+   "modified": "2021-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "PyPI",
+      "name": "pyyaml"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "5.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-8q59-q68h-6hv4"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-h5c8-rqwp-cp95",
+   "aliases": [
+    "CVE-2024-22195"
+   ],
+   "summary": "Jinja2 xmlattr filter allows injection of arbitrary HTML attributes",
+   "database_specific": {
+    "severity": "MODERATE"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "PyPI",
+      "name": "jinja2"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "3.1.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-h5c8-rqwp-cp95"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-v845-jxx5-vc9f",
+   "aliases": [
+    "CVE-2023-43804"
+   ],
+   "summary": "urllib3 Cookie request header isn't stripped during cross-origin redirects",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2023-10-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "PyPI",
+      "name": "urllib3"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "1.26.17"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "2.0.0"
+        },
+        {
+         "fixed": "2.0.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-v845-jxx5-vc9f"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-j7hp-h8jx-5ppr",
+   "aliases": [
+    "CVE-2023-4863"
+   ],
+   "summary": "Pillow bundled libwebp heap buffer overflow",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2023-09-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "PyPI",
+      "name": "pillow"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "10.0.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-j7hp-h8jx-5ppr"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-35jh-r3h4-6jhm",
+   "aliases": [
+    "CVE-2021-23337"
+   ],
+   "summary": "Command Injection in lodash",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "npm",
+      "name": "lodash"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "4.17.21"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-35jh-r3h4-6jhm"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-p6mc-m468-83gw",
+   "aliases": [
+    "CVE-2020-8203"
+   ],
+   "summary": "Prototype Pollution in lodash",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "npm",
+      "name": "lodash"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "4.17.19"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-p6mc-m468-83gw"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-xvch-5gv4-984h",
+   "aliases": [
+    "CVE-2021-44906"
+   ],
+   "summary": "Prototype Pollution in minimist",
+   "database_specific": {
+    "severity": "CRITICAL"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "npm",
+      "name": "minimist"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "0.2.4"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "1.0.0"
+        },
+        {
+         "fixed": "1.2.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-xvch-5gv4-984h"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-wf5p-g6vw-rhxx",
+   "aliases": [
+    "CVE-2023-45857"
+   ],
+   "summary": "Axios Cross-Site Request Forgery Vulnerability",
+   "database_specific": {
+    "severity": "MODERATE"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "npm",
+      "name": "axios"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0.8.1"
+        },
+        {
+         "fixed": "0.28.0"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "1.0.0"
+        },
+        {
+         "fixed": "1.6.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-wf5p-g6vw-rhxx"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-jfh8-c2jp-5v3q",
+   "aliases": [
+    "CVE-2021-44228"
+   ],
+   "summary": "Remote code injection in Log4j (Log4Shell)",
+   "database_specific": {
+    "severity": "CRITICAL"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "Maven",
+      "name": "org.apache.logging.log4j:log4j-core"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "2.13.0"
+        },
+        {
+         "fixed": "2.15.0"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "2.4"
+        },
+        {
+         "fixed": "2.12.2"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "2.0-beta9"
+        },
+        {
+         "fixed": "2.3.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-36p3-wjmg-h94x",
+   "aliases": [
+    "CVE-2022-22965"
+   ],
+   "summary": "Remote Code Execution in Spring Framework (Spring4Shell)",
+   "database_specific": {
+    "severity": "CRITICAL"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "Maven",
+      "name": "org.springframework:spring-beans"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "5.3.0"
+        },
+        {
+         "fixed": "5.3.18"
+        }
+       ]
+      },
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "5.2.20"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-36p3-wjmg-h94x"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-599f-7c49-w659",
+   "aliases": [
+    "CVE-2022-42889"
+   ],
+   "summary": "Arbitrary code execution in Apache Commons Text (Text4Shell)",
+   "database_specific": {
+    "severity": "CRITICAL"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "Maven",
+      "name": "org.apache.commons:commons-text"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "1.5"
+        },
+        {
+         "fixed": "1.10.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-599f-7c49-w659"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-45x7-px36-x8w8",
+   "aliases": [
+    "CVE-2023-48795"
+   ],
+   "summary": "Terrapin attack: golang.org/x/crypto SSH prefix truncation",
+   "database_specific": {
+    "severity": "MODERATE"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "Go",
+      "name": "golang.org/x/crypto"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "0.17.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-45x7-px36-x8w8"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-qppj-fm5r-hxr3",
+   "aliases": [
+    "CVE-2023-39325"
+   ],
+   "summary": "HTTP/2 rapid reset can cause excessive work in golang.org/x/net/http2",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "Go",
+      "name": "golang.org/x/net"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "0.17.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-qppj-fm5r-hxr3"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-m5pq-gvj9-9vr8",
+   "aliases": [
+    "CVE-2022-24713"
+   ],
+   "summary": "Regexes with large repetitions on empty sub-expressions take a very long time to parse (ReDoS)",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "crates.io",
+      "name": "regex"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "1.5.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-m5pq-gvj9-9vr8"
+    }
+   ]
+  },
+  {
+   "id": "GHSA-8cr8-4vfw-mr7h",
+   "aliases": [
+    "CVE-2021-28965"
+   ],
+   "summary": "XML round-trip vulnerability in REXML",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "RubyGems",
+      "name": "rexml"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "3.2.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://github.com/advisories/GHSA-8cr8-4vfw-mr7h"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2022-37434",
+   "aliases": [],
+   "summary": "zlib heap-based buffer over-read or overflow in inflate via large gzip header extra field",
+   "database_specific": {
+    "severity": "CRITICAL"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "ConanCenter",
+      "name": "zlib"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "0"
+        },
+        {
+         "fixed": "1.2.13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-37434"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2022-0778",
+   "aliases": [],
+   "summary": "OpenSSL: infinite loop in BN_mod_sqrt() when parsing certificates",
+   "database_specific": {
+    "severity": "HIGH"
+   },
+   "modified": "2024-01-01T00:00:00Z",
+   "affected": [
+    {
+     "package": {
+      "ecosystem": "ConanCenter",
+      "name": "openssl"
+     },
+     "ranges": [
+      {
+       "type": "ECOSYSTEM",
+       "events": [
+        {
+         "introduced": "1.1.1"
+        },
+        {
+         "fixed": "1.1.1n"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "references": [
+    {
+     "type": "ADVISORY",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0778"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+streamlit>=1.50,<2
+packaging>=24.0
+requests>=2.31
+pandas>=2.0
+plotly>=5.20
+networkx>=3.2
+python-dotenv>=1.0
+pytest>=8.0
+fastapi>=0.110
+uvicorn>=0.29
